@@ -13,7 +13,7 @@ const Nearbyjobs = () => {
   const router = useRouter();
 
   const { data, isLoading, error } = useFetch("search", {
-    query: "concepteur développeur, france",
+    query: "react, USA",
     num_pages: "1",
   });
 
